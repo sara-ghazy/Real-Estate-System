@@ -1,0 +1,190 @@
+body
+{
+    background:rgb(199, 193, 193)
+}
+header
+{
+    text-align:center;
+    position:fixed;
+    z-index: 5;
+    background-color: wheat;
+    width:100%;
+    top:0px;
+
+}
+.navbar
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding:10px 20px;
+    background-color: rgb(230, 79, 79);
+    margin:auto; 
+}
+.navbar div
+{
+    border:solid black  2px;
+    border-radius: 10%;
+    padding:10px 10px;
+    background-color: rgb(58, 42, 42);
+    color:white;
+    font-size: large;
+    font-weight:bold
+
+}
+.navbar div:hover
+{
+    background-color: maroon;
+}
+.navbar div a
+{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+main
+{
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:60px
+}
+.image
+{
+    border:solid black 2px
+}
+.image img
+{
+    width:100%;
+    height: 400px;
+}
+.infoAndReviews
+{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width:100%;
+    color:rgb(85, 14, 27);
+    font-size:large;
+    font-weight: bold;
+}
+.info
+{
+    padding:0px 20px;
+    width:50%;
+    border:solid black 2px;
+    background-color: rgb(218, 238, 238);
+    display:flex;
+    flex-direction: column;
+}
+.reviews
+{
+    padding:0px 20px;
+    width:50%;
+    border:solid black 2px;
+    background-color: rgb(245, 226, 226);
+    display:flex;
+    flex-direction: column;
+    
+}
+.reviews .head , .info .head
+{
+    text-align:center;
+    text-decoration:underline;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom:solid black 5px
+
+}
+.info div , .review div
+{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.review
+{
+    border-bottom: solid black 2px;
+}
+.review .headOfReview ,.info .owner
+
+{
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.addReviewform
+{
+    background-color: rgb(33, 41, 39);
+    border:solid black 2px;
+    position:fixed;
+    z-index:10;
+    display:none;
+    top:30%;
+    color:whitesmoke;
+    padding:20px 15px;
+
+}
+
+.addReviewform input[type="text"]
+{
+    width:100px;
+    font-size: large;
+}
+.addReviewform select
+{
+    width:100px;
+    font-size: large;
+}
+.addReviewform textarea
+{
+    width:200px;
+    height:100px;
+    font-size:large
+}
+.addReviewform input[type="submit"]
+{
+    max-width: 170px;
+    padding:10px 10px;
+    margin:auto;
+    font-size:large;
+    color:whitesmoke;
+    background-color: rgb(7, 73, 82);
+
+
+}
+.addReviewform input[type="submit"]:hover
+{
+    background-color: maroon;
+    cursor: pointer;
+}
+.addReviewform div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addReviewButton
+{
+    font-weight: bold;
+    margin-top:10px;
+    padding:10px 10px;
+    font-weight: bold;
+    background-color: rgb(42, 54, 7);
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: large;
+
+}
+.addReviewButton:hover
+{
+    background-color: maroon;
+    cursor: pointer;
+}
+
+
+

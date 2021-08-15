@@ -1,0 +1,187 @@
+body
+{
+    background-color:cadetblue;
+    background-image: url("../images/images.jpg");
+    background-repeat:no-repeat;
+    background-size:cover
+}
+body >div
+{
+    margin-top:20px;
+    color:wheat;
+    font-weight:bold
+    
+
+}
+/**first div ***/
+.header
+{
+    height:50px;
+    background-color: lightslategray;
+    border:black solid 2px;
+    padding-bottom: 20px;
+    color:white
+}
+.head
+{
+    margin-left:40%;
+}
+/*****/
+
+/**second div logn form**/
+
+.logindiv h1, .createAcountdiv h1
+{
+    float:right
+}
+.clear
+{
+    clear:both
+}
+
+.login
+{
+    background-color: dimgray;
+    border:solid black 2px;
+    display:block;
+    width:500px;
+    margin:auto;
+    box-shadow: gray 5px 5px 5px 5px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+ul
+{
+    list-style-type: none;    
+}
+li
+{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    
+
+}
+li label
+{
+    padding-top:20px
+}
+.input
+{
+    width:300px;
+    margin-top:20px;
+   margin-left:20px;
+   font-size: large;
+}
+
+.pr
+{
+
+    
+    width:200px;
+    text-align:right;
+    display:inline;
+
+    
+}
+.mylog
+{
+    margin-top:20px;
+    font-size:large;
+    font-weight: bold;
+    width:120px;
+    padding:10px 10px;
+    background-color: rgb(40, 84, 143);
+    color:white
+    
+    
+}
+.mylog:hover
+{
+    cursor:pointer;
+    background-color:maroon
+
+}
+.mylog input
+{
+    width:100px
+}
+
+/**************************/
+
+
+/**** third div  create account  form ***/
+
+.logindiv, .createAccount
+{
+    text-align: center;
+    
+}
+.createAccount
+{
+    color:black;
+    display:block;
+    border:solid black 2px;
+    background-color: chartreuse;
+    width:500px;
+    margin:auto;
+    box-shadow: gray 5px 5px 5px 5px;
+
+
+}
+ 
+
+.createAccount ul li input
+{
+    width:300px;
+    height:40px;
+    margin-left: 20px
+}
+
+.createAccount ul li select
+{
+    width:100px;
+    margin-left:20px;
+    margin-top:20px
+}
+.createAccount ul li label
+{
+    margin-top:10px
+}
+.logindiv h1, .createAcountdiv h1
+{
+    margin-right:30%;
+    color:rgb(143, 14, 14)
+}
+
+/***********************/
+/***footer*************/
+.footer
+{
+    text-align:center;
+    font:bold;
+    font-size:150%;
+    color:rgb(131, 4, 4)
+}
+ .createAccount ul li .submition
+{
+    margin-top:20px;
+    background-color: rgb(40, 84, 143);
+    color:white;
+    font-size:large;
+    font-weight: bold;
+    padding:10px 10px;
+    width:120px;
+
+    
+}
+.createAccount ul li .submition:hover
+{
+    background-color: maroon;
+    cursor:pointer
+}
+
+
+/****************/
